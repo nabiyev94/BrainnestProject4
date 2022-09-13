@@ -32,8 +32,6 @@ function calculate() {
     // or sometimes it can help recorrecting our typos.
     if (buttonText === "DEL") {
         displayed_input.textContent = displayed_input.textContent.slice(0, displayed_input.textContent.length - 1);
-        countElements = 0;
-        zeroWithDotPressed = false;
         return;
     }
 
